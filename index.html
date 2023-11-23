@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Tasmiya Sarguroh">
+    <meta name="name" content="Tasmiya Sarguroh : Portfolio Website">
+    <meta name="description" content="An Aspiring Developer, Open Source Enthusiast, Hacktoberfest Contributor, Open Source Contributor">
+    <meta name="keyword" content="Aspiring developer, Open Source Contributor, Hacktoberfest Contributor, coder, programmer, Student, Tasmiya, HTML, CSS, JS, React, NodeJs, Python, C, C++, Java, C#, ASP.NET, Student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+    <!-- Navbar Code -->
+    <header class="navbar">
+        <a href="#" class="nav_logo">Tasmiya <img src="/src/Bubbles.png" alt="Bubbles" width="25" height="25" /> Sarguroh</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="nav_links">
+            <a class="links" href="#">Home</a>
+            <a class="links" href="#About">About</a>
+            <a class="links" href="#Skills">Skills</a>
+            <a class="links" href="#Projects">Projects</a>
+            <a class="links" href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <div class="nav-bg"></div>
+
+    <main>
+
+        <!-- Hero Section Code -->
+        <section id="Home">
+            <div class="hero_container">
+                <img class="hero_img" src="/src/Hero_section.gif" alt="gif">
+                <div class="hero_text">
+                    <h2>Hey! That's me</h2>
+                    <h1>Tasmiya Sarguroh</h1>
+                    <h3 class="tt">I'm <span id="element"></span></h3>
+                    <a class="btn" href="/src/Updated_Resume.pdf" download="Tasmiya-resume">&DownArrowBar; Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section Code -->
+        <section id="About">
+            <div class="about_section">
+                <div class="about_container">
+                    <div class="about_title">
+                        <h1>About me</h1>
+                    </div>
+                    <div class="about_content">
+                        <div class="about_content_article">
+                            <p>Hi, I'm Tasmiya! I'm a passionate and aspiring developer with a deep love for open source technologies. 
+                                My journey in the realm of coding is fueled by a genuine enthusiasm for creating innovative solutions and contributing to the ever-evolving world of software development. 
+                                As an avid open source enthusiast, I find joy in collaborating with like-minded individuals, actively participating in hackathons, and immersing myself in the vibrant communities that define the open source landscape. 
+                                My commitment to fostering collaboration and sharing knowledge drives me to engage in meaningful projects, where I can not only expand my skills but also contribute to the collective wisdom of the open source community. 
+                                I thrive in the dynamic and fast-paced environment of hackathons, where the fusion of creativity and technology sparks incredible ideas. 
+                                Join me on this exciting journey, as we harness the power of collaboration to shape the future of open source innovation!</p>
+                            <div class="about_btn">
+                                <a class="btn" href="">Read More</a>
+                            </div>
+                            <div class="about_social_icons">
+                                <a href="https://www.linkedin.com/in/tasmiya-sarguroh/"><i class='bx bxl-linkedin-square bx-tada' style='color:#ffffff;' ></i></a>
+                                <a href="https://github.com/Sarguroh20"><i class='bx bxl-github bx-tada' style='color:#ffffff;' ></i></a>
+                                <a href="https://discord.com/users/1046800100845953104"><i class='bx bxl-discord-alt bx-tada' style='color:#ffffff;'  ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_img">
+                        <img src="/src/About_section.jpg" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section Code -->
+        <div class="skill_title">
+            <h1>Skills</h1>
+        </div>
+        <section id="Skills">
+            <div class="marquee">
+                <ul class="marquee-content">
+                    <li><i class='bx bxl-html5'></i></li>
+                    <li><i class='bx bxl-css3' ></i></li>
+                    <li><i class='bx bxl-javascript' ></i></li>
+                    <li><i class='bx bxl-react' ></i></li>
+                    <li><i class='bx bxl-git' ></i></li>
+                    <li><i class='bx bxl-figma' ></i></li>
+                    <li><i class='bx bxl-visual-studio' ></i></li>
+                    <li><i class='bx bxl-mongodb' ></i></li>
+                    <li><i class='bx bxl-github' ></i></li>
+                    <li><i class='bx bxl-java' ></i></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section Code -->
+        <div class="project_title">
+            <h1>Projects</h1>
+        </div>
+        <section id="Projects">
+            <div class="tab-nav-bar">
+                <div class="tab-navigation">
+                    <ul class="tab-menu">
+                        <li class="tab-btn active">QuizBurst</li>
+                        <li class="tab-btn">AutoFolio</li>
+                        <li class="tab-btn">ReactConnect</li>
+                        <li class="tab-btn">Cipher-Master</li>
+                        <li class="tab-btn">ILLACRUD</li>
+                        <li class="tab-btn">Translation App</li>
+                        <li class="tab-btn">Risk Management</li>
+                        <li class="tab-btn">VentureVista</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab active">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project1.png" alt="qb">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">QuizBurst</h2>
+                                <div class="desc">
+                                    <p>QuizBurst is an innovative web application designed to enhance student learning by providing an engaging and dynamic quiz experience. 
+                                        With a name that conveys excitement and knowledge acquisition, QuizBurst aims to revolutionize the way students interact with quizzes while boosting their academic performance.</p>
+                                    <div class="tags">
+                                        <span>MLH Hackathon</span>
+                                        <span>WebDev</span>
+                                        <span>EdTech</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://devpost.com/software/quizburst?ref_content=my-projects-tab&ref_feature=my_projects">View Project</a>
+                    </div>
+                </div>
+    
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project2.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">AutoFolio</h2>
+                                <div class="desc">
+                                    <p>AutoFolio is an innovative profile generator powered by artificial intelligence (AI) technology. 
+                                        It revolutionizes the way professionals create their profiles by automating the process and delivering exceptional results.
+                                        It utilizes advanced AI technology to create personalized and professional profiles that showcase the skills, experiences, and achievements of individuals in the tech industry.</p>
+                                    <div class="tags">
+                                        <span>MLH Hackathon</span>
+                                        <span>WebDev</span>
+                                        <span>Automation</span>
+                                        <span>ArtificialIntelligence</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://devpost.com/software/autofolio?ref_content=my-projects-tab&ref_feature=my_projects">View Project</a>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project3.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">ReactConnect</h2>
+                                <div class="desc">
+                                    <p>ReactConnect is a cutting-edge collaborative real-time code editor designed specifically for React projects. 
+                                        It enables multiple developers to connect to the same React codebase simultaneously, fostering seamless teamwork and efficient collaboration. 
+                                        With ReactConnect, developers can work together in real-time, making changes and providing instant feedback to each other.</p>
+                                    <div class="tags">
+                                        <span>MLH Hackathon</span>
+                                        <span>WebDev</span>
+                                        <span>Collaboration</span>
+                                        <span>EdTech</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://devpost.com/software/untitled-project-gsl59oenrmhj?ref_content=my-projects-tab&ref_feature=my_projects">View Project</a>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project4.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">Cipher-Master</h2>
+                                <div class="desc">
+                                    <p>Cipher Master is an AI Agent that encodes, challenges, and educates on cryptography, creating an engaging learning and gaming experience.</p>
+                                    <div class="tags">
+                                        <span>Hacktoberfest'23</span>
+                                        <span>AI Agent</span>
+                                        <span>Cryptography</span>
+                                        <span>OpenSource</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://github.com/Sarguroh20/Cipher-Master">View Project</a>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project5.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">ILLACRUD</h2>
+                                <div class="desc">
+                                    <p>ILLACRUD is a CRUD application where you can play with data by performing various operations such as create, read, update, and delete.</p>
+                                    <div class="tags">
+                                        <span>Hacktoberfest'23</span>
+                                        <span>App</span>
+                                        <span>Backend</span>
+                                        <span>OpenSource</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://github.com/Sarguroh20/CRUD-APP">View Project</a>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project6.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">ENGLISH ➡️ HINDI Translation App</h2>
+                                <div class="desc">
+                                    <p>This is the translation app which will convert your English based text into Hindi.</p>
+                                    <div class="tags">
+                                        <span>Hacktoberfest'23</span>
+                                        <span>App</span>
+                                        <span>Translator</span>
+                                        <span>OpenSource</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://github.com/Sarguroh20/ENGLISH-HINDI-Translation-App">View Project</a>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project7.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">Risk Management</h2>
+                                <div class="desc">
+                                    <p>Risk management is the systematic process of identifying, assessing, mitigating, and monitoring potential risks that could impact a project's objectives.
+                                        Created an AI agent using ILLA Cloud whose task is to explain all about risk management in project lifecycle, and it's four steps of planning.
+                                    </p>
+                                    <div class="tags">
+                                        <span>Hacktoberfest'23</span>
+                                        <span>AI Agent</span>
+                                        <span>OpenSource</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://github.com/Sarguroh20/Risk-Management">View Project</a>
+                    </div>
+                </div>
+
+                <div class="tab">
+                    <div class="row">
+                        <div class="left-col">
+                            <div class="img">
+                                <img src="/src/Project8.png" alt="af">
+                            </div>
+                        </div>
+                        <div class="ryt-col">
+                            <div class="info">
+                                <h2 class="title">VentureVista</h2>
+                                <div class="desc">
+                                    <p>VentureVista is a comprehensive travel platform that simplifies and enhances the travel experience. It offers a range of services and features to assist travelers in planning, organizing, and enjoying their journeys.</p>
+                                    <div class="tags">
+                                        <span>MLH Hackathon</span>
+                                        <span>WebDev</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="butn">
+                        <a class="btn" href="https://devpost.com/software/venturevista">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section Code -->
+        <div class="contact_title">
+            <h1>Contact</h1>
+        </div>
+        <section id="Contact">
+            <div class="box-wrapper">
+                <div class="info-wrap">
+                    <h2 class="info-title">Contact Information</h2>
+                    <h3 class="info-subtitle">Feel free to reach out for collaboration or inquiries 📬 Open to discussions! Let's collaborate on innovative projects and ideas.</h3>
+                    <img class="info-img" src="/src/Contact.gif" alt="">
+                </div>
+                <div class="form-wrap">
+                    <form action="#" method="post">
+                        <h2 class="form-title">Get in touch</h2>
+                        <div class="form-fields">
+                            <div class="form-grp">
+                                <input type="text" id="fname" placeholder="First Name" min="3" max="10" required>
+                            </div>
+                            <div class="form-grp">
+                                <input type="text" id="lname" placeholder="Last Name">
+                            </div>
+                            <div class="form-grp">
+                                <input type="text" id="email" placeholder="Email id" required>
+                            </div>
+                            <div class="form-grp">
+                                <input type="text" id="sub" placeholder="Subject" required>
+                            </div>
+                            <div class="form-grp">
+                                <textarea name="msg" id="msg" placeholder="Write your message" required></textarea>
+                            </div>
+                            <button onclick="sendMessage(); clearFields();" class="submit-btn">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- Footer Code -->
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.linkedin.com/in/tasmiya-sarguroh/"><i class='bx bxl-linkedin-square' ></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/Sarguroh20"><i class='bx bxl-github'></i></a>
+            </li>
+            <li>
+                <a href="https://discord.com/users/1046800100845953104"><i class='bx bxl-discord-alt' ></i></a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <p>Made with 💜 in India</p>
+        <p>&copy; Copyright 2023 | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
