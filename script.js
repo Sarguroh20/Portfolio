@@ -11,7 +11,7 @@ menuIcon.addEventListener('click', () => {
 
 // Hero Section typedjs
 var typed = new Typed('#element', {
-    strings: ['an Aspiring Developer^1000', 'an Open Source Enthusiast^1000', 'an Hacktoberfest23 Contributor^1000' ],
+    strings: ['Web Developer^1000', 'Open Source Enthusiast^1000', 'an Hacktoberfest23 Contributor^1000' ],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
