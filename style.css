@@ -237,7 +237,7 @@ body {
 /* About Section Styling */
 .about_section{
     width: 100%;
-    min-height: 100vh;
+    min-height: 135vh;
 }
 
 .about_section .about_container{
